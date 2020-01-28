@@ -2,10 +2,10 @@ export {}
 
 /* typal types/api.xml namespace */
 /**
- * @typedef {_myNewPackage.myNewPackage} myNewPackage {{ description }}
- * @typedef {(config: !_myNewPackage.Config) => string} _myNewPackage.myNewPackage {{ description }}
+ * @typedef {_examplePackage.examplePackage} examplePackage An example package created with MNP.
+ * @typedef {(config: !_examplePackage.Config) => string} _examplePackage.examplePackage An example package created with MNP.
  */
 
 /**
- * @typedef {import('..').Config} _myNewPackage.Config
+ * @typedef {import('..').Config} _examplePackage.Config
  */

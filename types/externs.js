@@ -5,26 +5,26 @@
 
 /* typal types/index.xml externs */
 /** @const */
-var _myNewPackage = {}
+var _examplePackage = {}
 /**
  * Options for the program.
  * @record
  */
-_myNewPackage.Config
+_examplePackage.Config
 /**
  * A boolean option. Default `true`.
  * @type {boolean|undefined}
  */
-_myNewPackage.Config.prototype.shouldRun
+_examplePackage.Config.prototype.shouldRun
 /**
  * A text to return.
  * @type {string|undefined}
  */
-_myNewPackage.Config.prototype.text
+_examplePackage.Config.prototype.text
 
 /* typal types/api.xml externs */
 /**
- * {{ description }}
- * @typedef {function(!_myNewPackage.Config): !Promise<string>}
+ * An example package created with MNP.
+ * @typedef {function(!_examplePackage.Config): !Promise<string>}
  */
-_myNewPackage.myNewPackage
+_examplePackage.examplePackage

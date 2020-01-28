@@ -1,12 +1,12 @@
-const { _myNewPackage } = require('./mnp')
+const { _examplePackage } = require('./example-package')
 
 /**
- * @methodType {_myNewPackage.myNewPackage}
+ * @methodType {_examplePackage.examplePackage}
  */
-function myNewPackage(config) {
-  return _myNewPackage(config)
+function examplePackage(config) {
+  return _examplePackage(config)
 }
 
-module.exports = myNewPackage
+module.exports = examplePackage
 
 /* typal types/index.xml namespace */

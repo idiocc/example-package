@@ -1,11 +1,11 @@
-# my-new-package
+# @artdeco/example-package
 
-%NPM: my-new-package%
+%NPM: @artdeco/example-package%
 
-`my-new-package` is {{ description }}
+`@artdeco/example-package` is An example package created with MNP.
 
 ```sh
-yarn add my-new-package
+yarn add @artdeco/example-package
 ```
 
 ## Table Of Contents

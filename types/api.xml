@@ -1,6 +1,6 @@
-<types namespace="_myNewPackage">
-  <method name="myNewPackage" async return="string">
-    <arg type="!_myNewPackage.Config" name="config">The config.</arg>
-    {{ description }}
+<types namespace="_examplePackage">
+  <method name="examplePackage" async return="string">
+    <arg type="!_examplePackage.Config" name="config">The config.</arg>
+    An example package created with MNP.
   </method>
 </types>

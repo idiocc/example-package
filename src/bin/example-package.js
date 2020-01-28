@@ -4,13 +4,13 @@ import usually from 'usually'
 import { readFileSync, writeFileSync } from 'fs'
 import { c } from 'erte'
 import Init from './commands/init'
-import myNewPackage from '../'
+import examplePackage from '../'
 
 if (_help) {
   const usage = usually({
-    description: '{{ description }}',
-    example: 'mnp example.txt -o out.txt',
-    line: 'mnp input [-o output] [-ihv]',
+    description: 'An example package created with MNP.',
+    example: 'example-package example.txt -o out.txt',
+    line: 'example-package input [-o output] [-ihv]',
     usage: reduceUsage(argsConfig),
   })
   console.log(usage)
@@ -25,7 +25,7 @@ if (_help) {
     if (_init) return await Init()
     if (!_input) throw new Error('Please pass an input file.')
     const content = /** @type {string} */ (readFileSync(_input, 'utf8'))
-    const output = await myNewPackage({
+    const output = await examplePackage({
       shouldRun: true,
       text: content,
     })

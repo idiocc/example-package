@@ -2,10 +2,10 @@
  * The footer for documentation.
  */
 export const footer = () => {
-  const alt = '{{ org }}'
-  const src = 'https://avatars3.githubusercontent.com/u/38815725?v=4&s=100'
-  const href = '{{ website }}'
-  const org = '{{ trademark }}'
+  const alt = 'idiocc'
+  const src = 'https://avatars1.githubusercontent.com/u/40834161?v=4&s=100'
+  const href = 'https://www.artd.eco'
+  const org = 'Art Deco™'
   const year = new Date().getFullYear()
   return [
     (<table>
